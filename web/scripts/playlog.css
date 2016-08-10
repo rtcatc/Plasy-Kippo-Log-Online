@@ -1,0 +1,46 @@
+body {
+    color: #787878;
+    font-family: Georgia, serif;
+}
+
+a {
+    color: #c77;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: white
+}
+
+/* http://stackoverflow.com/questions/1255281/how-to-set-width-of-div-to-fit-constant-number-of-letters-in-monospace-font */
+#playlog {
+    border: 3px solid #541;
+    font: 15px/1.2 Courier, monospace;
+    width: 48em; /* 80 x 0.6 (the width/height ratio of Courier) */
+    height: 30em; /* 25 x 1.2 (line-height is 1.2) */
+    overflow: hidden;
+    /*background-color: #021; */
+    background-color: black;
+    color: #bbb;
+    display: none;
+}
+
+.cursorChar {
+    text-decoration: underline;
+}
+
+pre {
+	background:#ccc;
+	padding:3px;
+	margin-top:6px;
+	margin-bottom:6px;
+	max-height:400px;
+	font:15px/1.2 Courier, monospace;
+	color:#000;
+	line-height:16px;
+	overflow:auto;
+}
