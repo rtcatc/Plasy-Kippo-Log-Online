@@ -9,6 +9,6 @@
 
 使用方法: ``` http://127.0.0.1/?id=1 ```
 
-![demo](http://www.ract.top/uploads/p/image/1470817310_6958.png)
+<img src="http://www.ract.top/uploads/p/image/1470817310_6958.png" alt="demo"/>
 
 我的联系方式:echo UVE6MzIxMDkxNTMxNA==|base64 -d
